@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+
+# Node (just in case they decide to add npm packages later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/

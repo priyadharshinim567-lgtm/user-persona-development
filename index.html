@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Persona Development | StudyFlow UX Case Study</title>
+    <meta name="description" content="A UX portfolio case study on user persona development for StudyFlow, a smart study planning app.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Study<span>Flow</span></a>
+            <button class="hamburger" aria-label="Toggle Navigation">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="#overview" class="nav-link">Overview</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#personas" class="nav-link">Personas</a></li>
+                <li><a href="#comparison" class="nav-link">Comparison</a></li>
+                <li><a href="#insights" class="nav-link">Insights</a></li>
+                <li><a href="#design" class="nav-link">Design</a></li>
+                <li><a href="#reflection" class="nav-link">Reflection</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text reveal">
+                <span class="label">CODTECH UI/UX Internship Project</span>
+                <h1>User Persona Development</h1>
+                <p class="subtitle">Turning research patterns into realistic user profiles for designing a student-focused productivity experience.</p>
+                <p class="supporting-text">An exploration of student behaviors, motivations, goals, and pain points to create research-informed personas for StudyFlow.</p>
+                <div class="hero-actions">
+                    <a href="#personas" class="btn btn-primary">Explore Personas</a>
+                    <a href="#research" class="btn btn-outline">View Research Process</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <!-- Fallback to a placeholder if image doesn't exist, though we copied it -->
+                <img src="assets/images/hero-abstract.png" alt="Abstract UI Visual of Personas and Goals" onerror="this.src='https://via.placeholder.com/600x450?text=Abstract+UI+Visual'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="section-padding" id="overview">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Project Overview</h2>
+            </div>
+            <div class="overview-card">
+                <div class="overview-item">
+                    <h4>Role</h4>
+                    <p>UX Researcher / UI/UX Intern</p>
+                </div>
+                <div class="overview-item">
+                    <h4>Product</h4>
+                    <p>StudyFlow</p>
+                </div>
+                <div class="overview-item">
+                    <h4>Project Type</h4>
+                    <p>User Persona Development</p>
+                </div>
+                <div class="overview-item">
+                    <h4>Domain</h4>
+                    <p>Education / Productivity</p>
+                </div>
+                <div class="overview-item">
+                    <h4>Target Audience</h4>
+                    <p>College Students</p>
+                </div>
+                <div class="overview-item">
+                    <h4>Tools</h4>
+                    <p>Figma, HTML, CSS, JavaScript</p>
+                </div>
+                <div class="overview-full">
+                    <div class="disclaimer-card">
+                        <p><strong>Sample persona study</strong> — simulated data for educational and portfolio demonstration purposes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Personas -->
+    <section class="section-padding bg-accent" id="why-personas" style="background-color: var(--bg-secondary);">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Why User Personas?</h2>
+                <p>User personas help transform research observations into clear representations of target users. They allow designers to keep user goals, behaviors, frustrations, and motivations at the center of product decisions.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Build Empathy</h3>
+                    <p>Understand the emotional state and context of the user to design solutions that truly resonate.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💡</div>
+                    <h3>Identify Needs</h3>
+                    <p>Pinpoint exactly what the user needs to achieve their goals without unnecessary features.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚖️</div>
+                    <h3>Prioritize Features</h3>
+                    <p>Make informed decisions about which features provide the most value to specific user segments.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Align Decisions</h3>
+                    <p>Create a shared understanding among stakeholders about who the product is being built for.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📢</div>
+                    <h3>Communicate Research</h3>
+                    <p>Distill complex research data into digestible, humanized formats.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Foundation -->
+    <section class="section-padding" id="research">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Research Foundation</h2>
+                <p>All personas are derived from simulated research data based on common college student behaviors.</p>
+            </div>
+            
+            <div class="grid-3 mb-4">
+                <div class="card">
+                    <h3>Qualitative Research</h3>
+                    <p>Sample interviews with 8 fictional college students.</p>
+                </div>
+                <div class="card">
+                    <h3>Quantitative Research</h3>
+                    <p>Sample survey data from 30 fictional responses.</p>
+                </div>
+                <div class="card">
+                    <h3>Usability Testing</h3>
+                    <p>Sample task-based testing with 6 fictional participants.</p>
+                </div>
+            </div>
+
+            <div class="card reveal" style="margin-top: 2rem;">
+                <h3>Common Research Themes</h3>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+                    <span class="label" style="background: var(--bg-accent); padding: 0.5rem 1rem; border-radius: 100px;">Deadline management</span>
+                    <span class="label" style="background: var(--bg-accent); padding: 0.5rem 1rem; border-radius: 100px;">Task prioritization</span>
+                    <span class="label" style="background: var(--bg-accent); padding: 0.5rem 1rem; border-radius: 100px;">Study consistency</span>
+                    <span class="label" style="background: var(--bg-accent); padding: 0.5rem 1rem; border-radius: 100px;">Productivity tools</span>
+                    <span class="label" style="background: var(--bg-accent); padding: 0.5rem 1rem; border-radius: 100px;">Motivation</span>
+                    <span class="label" style="background: var(--bg-accent); padding: 0.5rem 1rem; border-radius: 100px;">Academic workload</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience & Segmentation -->
+    <section class="section-padding" id="audience" style="background-color: var(--bg-secondary);">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Target Audience</h2>
+                <p><strong>Primary Audience:</strong> College Students (Approx. Age: 18–24)</p>
+            </div>
+            
+            <div class="card" style="margin-bottom: 4rem;">
+                <h3>Audience Characteristics</h3>
+                <ul class="list-card">
+                    <li>Multiple academic responsibilities</li>
+                    <li>Frequent deadlines</li>
+                    <li>Assignments and examinations</li>
+                    <li>Different study habits</li>
+                    <li>Varying levels of digital productivity experience</li>
+                </ul>
+            </div>
+
+            <div class="section-header">
+                <h2>User Segmentation</h2>
+                <p>Simulated behavioral groups based on patterns identified in the research context.</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="card">
+                    <span class="label">Segment 01</span>
+                    <h3>The Organized Planner</h3>
+                    <p>Plans tasks ahead of deadlines.</p>
+                    <hr style="margin: 1rem 0; border: none; border-top: 1px solid var(--border-color);">
+                    <strong>Needs:</strong>
+                    <ul class="list-card" style="margin-top: 0.5rem;">
+                        <li>Scheduling</li>
+                        <li>Calendar visibility</li>
+                        <li>Progress tracking</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <span class="label">Segment 02</span>
+                    <h3>The Overloaded Multitasker</h3>
+                    <p>Manages several assignments simultaneously.</p>
+                    <hr style="margin: 1rem 0; border: none; border-top: 1px solid var(--border-color);">
+                    <strong>Needs:</strong>
+                    <ul class="list-card" style="margin-top: 0.5rem;">
+                        <li>Prioritization</li>
+                        <li>Workload visibility</li>
+                        <li>Reminders</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <span class="label">Segment 03</span>
+                    <h3>The Last-Minute Learner</h3>
+                    <p>Often delays tasks until deadlines approach.</p>
+                    <hr style="margin: 1rem 0; border: none; border-top: 1px solid var(--border-color);">
+                    <strong>Needs:</strong>
+                    <ul class="list-card" style="margin-top: 0.5rem;">
+                        <li>Simple planning</li>
+                        <li>Reminders</li>
+                        <li>Motivation</li>
+                        <li>Progress visibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Persona Development Process -->
+    <section class="section-padding" id="process">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Persona Development Process</h2>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="process-number">01</div>
+                    <div>
+                        <h3>Collect</h3>
+                        <p>Gather research observations.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">02</div>
+                    <div>
+                        <h3>Identify Patterns</h3>
+                        <p>Look for recurring behaviors.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">03</div>
+                    <div>
+                        <h3>Group Users</h3>
+                        <p>Cluster users based on similarities.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">04</div>
+                    <div>
+                        <h3>Define Characteristics</h3>
+                        <p>Identify goals, frustrations and motivations.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">05</div>
+                    <div>
+                        <h3>Create Personas</h3>
+                        <p>Turn patterns into representative profiles.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">06</div>
+                    <div>
+                        <h3>Validate</h3>
+                        <p>Compare personas against research evidence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Primary Persona -->
+    <section class="section-padding" id="personas" style="background-color: var(--bg-secondary);">
+        <div class="container reveal">
+            <div class="disclaimer-card" style="margin-bottom: 2rem;">
+                <p><strong>Sample persona</strong> based on simulated research patterns.</p>
+            </div>
+
+            <!-- Persona 1: Ananya -->
+            <div class="persona-hero">
+                <div class="persona-image">
+                    <img src="assets/images/ananya-profile.png" alt="Ananya Profile" onerror="this.src='https://via.placeholder.com/300x300?text=Ananya'">
+                </div>
+                <div>
+                    <span class="label">Persona 01 — The Overloaded Planner</span>
+                    <h2>Ananya</h2>
+                    <p><strong>Age:</strong> 20 &nbsp;|&nbsp; <strong>Occupation:</strong> College Student</p>
+                    <p style="margin-top: 1rem; color: #e0e7ff;">Undergraduate student managing assignments, projects and examinations. Ananya wants to stay organized but often struggles when several academic deadlines overlap.</p>
+                    <blockquote class="persona-quote">
+                        "I know what I need to finish, but when everything feels urgent, I don't know where to start."
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="grid-2" style="margin-bottom: 2rem;">
+                <div class="card">
+                    <h3>Goals</h3>
+                    <div style="margin-bottom: 1rem;">
+                        <strong>Academic</strong>
+                        <ul class="list-card">
+                            <li>Submit assignments on time</li>
+                            <li>Prepare for exams consistently</li>
+                            <li>Avoid last-minute work</li>
+                        </ul>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <strong>Productivity</strong>
+                        <ul class="list-card">
+                            <li>Know what to work on first</li>
+                            <li>Keep track of upcoming deadlines</li>
+                            <li>Plan study sessions</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <strong>Personal</strong>
+                        <ul class="list-card">
+                            <li>Reduce academic stress</li>
+                            <li>Maintain a balanced routine</li>
+                            <li>Feel more in control of workload</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3>Pain Points</h3>
+                    <ul class="list-card">
+                        <li><strong>Deadline Overlap:</strong> Multiple assignments can become overwhelming.</li>
+                        <li><strong>Poor Prioritization:</strong> Difficult to determine which task deserves attention first.</li>
+                        <li><strong>Fragmented Planning:</strong> Tasks distributed across notebooks, reminders and apps.</li>
+                        <li><strong>Lack of Progress Visibility:</strong> Difficult to see overall academic progress at a glance.</li>
+                        <li><strong>Last-Minute Pressure:</strong> Unplanned workload creates stress close to deadlines.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Behaviors & Motivations</h3>
+                    <p><strong>Motivations:</strong> Academic success, feeling organized, completing tasks early, reducing stress, maintaining consistency.</p>
+                    <hr style="margin: 1rem 0; border: none; border-top: 1px solid var(--border-color);">
+                    <strong>Behaviors:</strong>
+                    <ul class="list-card">
+                        <li>Uses phone reminders & checks deadlines frequently</li>
+                        <li>Writes down important tasks</li>
+                        <li>Switches between multiple productivity tools</li>
+                        <li>Prioritizes urgent assignments</li>
+                        <li>Feels motivated when progress is visible</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Technology Habits</h3>
+                    <p><strong>Devices:</strong> Smartphone, Laptop</p>
+                    <p><strong>Common Tools:</strong> Calendar apps, Notes apps, Messaging apps, To-do applications</p>
+                    <hr style="margin: 1rem 0; border: none; border-top: 1px solid var(--border-color);">
+                    <strong>Digital Behavior:</strong>
+                    <ul class="list-card">
+                        <li>Frequently checks notifications</li>
+                        <li>Prefers simple interfaces</li>
+                        <li>Wants quick task entry</li>
+                        <li>Avoids complicated workflows</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Space between personas -->
+            <div style="height: 6rem;"></div>
+            
+            <div class="disclaimer-card" style="margin-bottom: 2rem;">
+                <p><strong>Sample persona</strong> based on simulated research patterns.</p>
+            </div>
+
+            <!-- Persona 2: Rahul -->
+            <div class="persona-hero" style="background: linear-gradient(135deg, #10b981 0%, #047857 100%);">
+                <div class="persona-image">
+                    <img src="assets/images/rahul-profile.png" alt="Rahul Profile" onerror="this.src='https://via.placeholder.com/300x300?text=Rahul'">
+                </div>
+                <div>
+                    <span class="label">Persona 02 — The Last-Minute Learner</span>
+                    <h2>Rahul</h2>
+                    <p><strong>Age:</strong> 21 &nbsp;|&nbsp; <strong>Occupation:</strong> College Student</p>
+                    <p style="margin-top: 1rem; color: #d1fae5;">Rahul tends to postpone academic tasks and becomes highly focused when deadlines approach.</p>
+                    <blockquote class="persona-quote" style="border-left-color: #6ee7b7;">
+                        "I usually start working seriously when the deadline is close."
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Goals & Motivations</h3>
+                    <strong>Goals</strong>
+                    <ul class="list-card" style="margin-bottom: 1.5rem;">
+                        <li>Complete assignments before deadlines</li>
+                        <li>Remember important academic events</li>
+                        <li>Develop a consistent study routine</li>
+                        <li>Reduce last-minute pressure</li>
+                        <li>Track progress</li>
+                    </ul>
+                    <strong>Motivations</strong>
+                    <ul class="list-card">
+                        <li>Better grades & Less stress</li>
+                        <li>More free time</li>
+                        <li>Visible progress</li>
+                        <li>Short-term achievable goals</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>Pain Points & Behaviors</h3>
+                    <strong>Pain Points</strong>
+                    <ul class="list-card" style="margin-bottom: 1.5rem;">
+                        <li>Procrastination & Overwhelming task lists</li>
+                        <li>Difficulty estimating study time</li>
+                        <li>Forgetting upcoming deadlines</li>
+                        <li>Lack of consistent routine</li>
+                    </ul>
+                    <strong>Behaviors</strong>
+                    <ul class="list-card">
+                        <li>Often delays starting tasks</li>
+                        <li>Responds strongly to approaching deadlines</li>
+                        <li>Uses reminders & Prefers simple task lists</li>
+                        <li>Works intensely close to submission dates</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Persona Comparison -->
+    <section class="section-padding" id="comparison">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Persona Comparison</h2>
+                <p>Both represent different user needs within the same target audience. They are not ranked; rather, they highlight the necessity of designing for diverse behavioral patterns.</p>
+            </div>
+            
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Attribute</th>
+                            <th>Ananya (The Overloaded Planner)</th>
+                            <th>Rahul (The Last-Minute Learner)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Planning Style</strong></td>
+                            <td>Plans but struggles with workload</td>
+                            <td>Often starts late</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Main Challenge</strong></td>
+                            <td>Prioritization</td>
+                            <td>Procrastination</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Motivation</strong></td>
+                            <td>Organization</td>
+                            <td>Deadlines & progress</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Key Need</strong></td>
+                            <td>Workload clarity</td>
+                            <td>Simple planning</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Preferred Support</strong></td>
+                            <td>Priority & scheduling</td>
+                            <td>Reminders & progress</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Empathy Insights -->
+    <section class="section-padding" id="insights" style="background-color: var(--bg-secondary);">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Empathy Insights</h2>
+                <p>Illustrative statements to build empathy and understand emotional experiences.</p>
+            </div>
+            
+            <h3 style="text-align: center; margin-bottom: 2rem;">Ananya's Empathy Map</h3>
+            <div class="empathy-grid" style="margin-bottom: 4rem;">
+                <div class="empathy-quadrant">
+                    <h4>💬 Says</h4>
+                    <p>"I have too many deadlines this week."</p>
+                </div>
+                <div class="empathy-quadrant">
+                    <h4>🧠 Thinks</h4>
+                    <p>"Which assignment should I start with?"</p>
+                </div>
+                <div class="empathy-quadrant">
+                    <h4>🏃 Does</h4>
+                    <p>Checks deadlines and creates task lists.</p>
+                </div>
+                <div class="empathy-quadrant">
+                    <h4>❤️ Feels</h4>
+                    <p>Overwhelmed when deadlines overlap.</p>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; margin-bottom: 2rem;">Rahul's Empathy Map</h3>
+            <div class="empathy-grid">
+                <div class="empathy-quadrant" style="border-color: #6ee7b7;">
+                    <h4 style="color: #059669;">💬 Says</h4>
+                    <p>"I'll start it tomorrow."</p>
+                </div>
+                <div class="empathy-quadrant" style="border-color: #6ee7b7;">
+                    <h4 style="color: #059669;">🧠 Thinks</h4>
+                    <p>"I still have enough time."</p>
+                </div>
+                <div class="empathy-quadrant" style="border-color: #6ee7b7;">
+                    <h4 style="color: #059669;">🏃 Does</h4>
+                    <p>Delays tasks until deadlines become urgent.</p>
+                </div>
+                <div class="empathy-quadrant" style="border-color: #6ee7b7;">
+                    <h4 style="color: #059669;">❤️ Feels</h4>
+                    <p>Relaxed initially, stressed closer to deadlines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Needs & Design Implications -->
+    <section class="section-padding" id="design">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>User Needs & Design Implications</h2>
+            </div>
+            
+            <div class="grid-2" style="margin-bottom: 4rem;">
+                <div class="card">
+                    <h3>For Ananya</h3>
+                    <strong>User Needs:</strong>
+                    <ul class="list-card" style="margin-bottom: 1rem;">
+                        <li>Clear priorities & Workload overview</li>
+                        <li>Deadline visibility & Study scheduling</li>
+                        <li>Progress tracking</li>
+                    </ul>
+                    <hr style="margin: 1rem 0; border: none; border-top: 1px solid var(--border-color);">
+                    <strong>Design Should:</strong>
+                    <ul class="list-card">
+                        <li>Make priority visible</li>
+                        <li>Show workload clearly</li>
+                        <li>Provide weekly planning</li>
+                        <li>Combine deadlines and study sessions</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>For Rahul</h3>
+                    <strong>User Needs:</strong>
+                    <ul class="list-card" style="margin-bottom: 1rem;">
+                        <li>Simple task creation & Timely reminders</li>
+                        <li>Progress feedback & Study structure</li>
+                        <li>Small achievable goals</li>
+                    </ul>
+                    <hr style="margin: 1rem 0; border: none; border-top: 1px solid var(--border-color);">
+                    <strong>Design Should:</strong>
+                    <ul class="list-card">
+                        <li>Reduce planning effort</li>
+                        <li>Use helpful reminders</li>
+                        <li>Break large tasks into manageable actions</li>
+                        <li>Provide progress feedback</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-header" style="margin-bottom: 2rem;">
+                <h2>Feature Priorities</h2>
+                <p>Design recommendations based on the simulated personas.</p>
+            </div>
+
+            <div class="grid-3" style="margin-bottom: 4rem;">
+                <div class="card" style="border-top: 4px solid #ef4444;">
+                    <span class="label" style="color: #ef4444;">High Relevance</span>
+                    <ul class="list-card">
+                        <li><strong>Priority Management:</strong> Helps overloaded users decide what to do first.</li>
+                        <li><strong>Deadline Reminders:</strong> Helps users avoid missing deadlines.</li>
+                        <li><strong>Weekly Overview:</strong> Provides workload visibility.</li>
+                    </ul>
+                </div>
+                <div class="card" style="border-top: 4px solid #f59e0b;">
+                    <span class="label" style="color: #f59e0b;">Medium Relevance</span>
+                    <ul class="list-card">
+                        <li><strong>Study Session Scheduling:</strong> Supports consistent study habits.</li>
+                        <li><strong>Progress Tracking:</strong> Provides motivation.</li>
+                    </ul>
+                </div>
+                <div class="card" style="border-top: 4px solid #3b82f6;">
+                    <span class="label" style="color: #3b82f6;">Supporting Features</span>
+                    <ul class="list-card">
+                        <li><strong>Task Categories:</strong> Helps organize different academic responsibilities.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-header" style="margin-bottom: 2rem;">
+                <h2>Persona → Design Traceability</h2>
+            </div>
+            
+            <div class="trace-flow">
+                <div class="trace-step">
+                    <h5>User Pattern</h5>
+                    <p>Ananya struggles with overlapping deadlines.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>User Need</h5>
+                    <p>Clear workload and priority visibility.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>Design Opportunity</h5>
+                    <p>Help students understand what requires attention first.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>Feature</h5>
+                    <p style="color: var(--primary); font-weight: 700;">Priority Dashboard</p>
+                </div>
+            </div>
+
+            <div class="trace-flow">
+                <div class="trace-step">
+                    <h5>User Pattern</h5>
+                    <p>Rahul delays tasks until deadlines approach.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>User Need</h5>
+                    <p>Timely reminders and progress feedback.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>Design Opportunity</h5>
+                    <p>Encourage users to start tasks earlier.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>Feature</h5>
+                    <p style="color: var(--primary); font-weight: 700;">Smart Reminder + Progress System</p>
+                </div>
+            </div>
+            
+            <div class="trace-flow">
+                <div class="trace-step">
+                    <h5>User Pattern</h5>
+                    <p>Students use multiple disjointed tools.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>User Need</h5>
+                    <p>Centralized view of tasks and classes.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>Design Opportunity</h5>
+                    <p>Combine academic and personal planning.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>Feature</h5>
+                    <p style="color: var(--primary); font-weight: 700;">Unified Weekly Planner</p>
+                </div>
+            </div>
+
+            <div class="trace-flow">
+                <div class="trace-step">
+                    <h5>User Pattern</h5>
+                    <p>Students struggle with large, overwhelming tasks.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>User Need</h5>
+                    <p>Break large tasks into manageable actions.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>Design Opportunity</h5>
+                    <p>Guide users to plan step-by-step.</p>
+                </div>
+                <div class="trace-arrow">→</div>
+                <div class="trace-step">
+                    <h5>Feature</h5>
+                    <p style="color: var(--primary); font-weight: 700;">Sub-task Checklists</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Validation & Quality Check -->
+    <section class="section-padding" style="background-color: var(--bg-secondary);">
+        <div class="container reveal">
+            <div class="grid-2">
+                <div class="card">
+                    <h2>Persona Validation</h2>
+                    <p>In a real UX project, personas are not static; they must be validated and refined.</p>
+                    <ul class="list-card" style="margin-top: 1rem;">
+                        <li>Compare personas against actual research data.</li>
+                        <li>Conduct additional interviews.</li>
+                        <li>Check whether behavioral patterns repeat.</li>
+                        <li>Test assumptions with real users.</li>
+                        <li>Update personas when new evidence appears.</li>
+                        <li>Avoid treating personas as permanent user categories.</li>
+                    </ul>
+                </div>
+                <div class="card" style="background: var(--bg-primary);">
+                    <h2>Persona Quality Check</h2>
+                    <ul class="list-card" style="margin-top: 1rem; list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 0.75rem;"><span style="color: #10b981; font-weight: bold; margin-right: 0.5rem;">✓</span> Based on research patterns</li>
+                        <li style="margin-bottom: 0.75rem;"><span style="color: #10b981; font-weight: bold; margin-right: 0.5rem;">✓</span> Focused on behaviors rather than stereotypes</li>
+                        <li style="margin-bottom: 0.75rem;"><span style="color: #10b981; font-weight: bold; margin-right: 0.5rem;">✓</span> Includes goals and frustrations</li>
+                        <li style="margin-bottom: 0.75rem;"><span style="color: #10b981; font-weight: bold; margin-right: 0.5rem;">✓</span> Represents meaningful user needs</li>
+                        <li style="margin-bottom: 0.75rem;"><span style="color: #10b981; font-weight: bold; margin-right: 0.5rem;">✓</span> Connected to design decisions</li>
+                        <li style="margin-bottom: 0.75rem;"><span style="color: #10b981; font-weight: bold; margin-right: 0.5rem;">✓</span> Clearly identifies assumptions</li>
+                        <li style="margin-bottom: 0.75rem;"><span style="color: #10b981; font-weight: bold; margin-right: 0.5rem;">✓</span> Can be validated through further research</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Takeaways & Reflection -->
+    <section class="section-padding" id="reflection">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Key Takeaways</h2>
+            </div>
+            <div class="grid-4" style="margin-bottom: 4rem;">
+                <div class="card">
+                    <span class="label">01</span>
+                    <p>Personas turn research patterns into understandable user profiles.</p>
+                </div>
+                <div class="card">
+                    <span class="label">02</span>
+                    <p>Different students can have different behaviors even when they share the same demographic group.</p>
+                </div>
+                <div class="card">
+                    <span class="label">03</span>
+                    <p>Behavioral patterns are more useful for UX decisions than assumptions based only on age or occupation.</p>
+                </div>
+                <div class="card">
+                    <span class="label">04</span>
+                    <p>Personas should evolve as new research evidence becomes available.</p>
+                </div>
+            </div>
+
+            <div class="card reveal" style="background: var(--bg-secondary); border: 2px solid var(--primary-light);">
+                <h2>Reflection: What I Learned</h2>
+                <ul class="list-card" style="margin-top: 1.5rem;">
+                    <li><strong>Evidence Over Assumptions:</strong> Personas should be based on evidence rather than assumptions.</li>
+                    <li><strong>Demographics Aren't Enough:</strong> Demographics alone do not explain user behavior.</li>
+                    <li><strong>Behavior is Key:</strong> Behavioral patterns help create more useful personas.</li>
+                    <li><strong>Actionable Tool:</strong> A good persona should influence actual design decisions.</li>
+                    <li><strong>Communication:</strong> Personas are communication tools, not replacements for real user research.</li>
+                    <li><strong>Living Documents:</strong> Personas should be updated when new evidence becomes available.</li>
+                </ul>
+            </div>
+
+            <div class="section-header" style="margin-top: 4rem;">
+                <h2>Final Case Study Summary</h2>
+            </div>
+            
+            <div class="trace-flow" style="flex-direction: column; text-align: center; max-width: 800px; margin: 0 auto; gap: 1.5rem;">
+                <div>
+                    <h5>Research</h5>
+                    <p>Sample interviews, surveys and usability observations.</p>
+                </div>
+                <div class="trace-arrow" style="transform: rotate(90deg);">→</div>
+                <div>
+                    <h5>Patterns</h5>
+                    <p>Identify recurring behaviors, motivations and challenges.</p>
+                </div>
+                <div class="trace-arrow" style="transform: rotate(90deg);">→</div>
+                <div>
+                    <h5>Segments</h5>
+                    <p>Group users with similar behavioral patterns.</p>
+                </div>
+                <div class="trace-arrow" style="transform: rotate(90deg);">→</div>
+                <div>
+                    <h5>Personas</h5>
+                    <p>Create representative profiles.</p>
+                </div>
+                <div class="trace-arrow" style="transform: rotate(90deg);">→</div>
+                <div>
+                    <h5>Design Implications</h5>
+                    <p>Translate user needs into product opportunities.</p>
+                </div>
+                <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-color); width: 100%;">
+                    <h3 style="color: var(--primary); margin: 0;">Design for the person, not just the problem.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p><strong>StudyFlow User Persona Development</strong> — CODTECH UI/UX Internship Project</p>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem;">Created by Priya Dharshini for educational and portfolio demonstration purposes.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
